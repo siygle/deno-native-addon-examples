@@ -1,0 +1,14 @@
+{
+  "name": "node-package-demo",
+  "description": "example repo for Deno 1.31 package.json feature",
+  "type": "module",
+  "scripts": {
+    "say-hello": "cowsay 'Hello from Deno!'"
+  },
+  "dependencies": {
+    "chalk": "^5.2"
+  },
+  "devDependencies": {
+    "cowsay": "^1.5"
+  }
+}

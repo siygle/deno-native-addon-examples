@@ -1,0 +1,10 @@
+[package]
+name = "deno_ffi_test"
+version = "0.1.0"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+sysctl = "0.4.2"
