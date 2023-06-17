@@ -3,7 +3,8 @@
   "description": "example repo for Deno 1.31 package.json feature",
   "type": "module",
   "scripts": {
-    "say-hello": "cowsay 'Hello from Deno!'"
+    "say-hello": "cowsay 'Hello from Deno!'",
+    "ffi": "deno run --allow-ffi --unstable deno_ffi_test.ts"
   },
   "dependencies": {
     "chalk": "^5.2"
